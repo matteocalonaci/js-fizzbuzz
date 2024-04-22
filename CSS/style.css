@@ -6,21 +6,31 @@
 }
 
 body {
-    background-color: green;
+    background-color: black;
     color: white;
 }
 
 .myTitle {
     display: flex;
     justify-content: center;
-    padding-bottom: 1rem;
+    margin-bottom: 3rem;
 }
 
-ul {
+
+.container {
+    width: 90%;
+    margin: auto;
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+li {
+    margin: 10px 0;
+    width: calc(100% / 10 - 0.5rem);
+    aspect-ratio: 1;
+    display: flex;
     justify-content: center;
-    text-align: center;
-    text-decoration: none;
-    margin-top: 4rem;
+    align-items: center;
+    border-radius: 1rem;
 }
